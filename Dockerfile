@@ -16,3 +16,4 @@ RUN cd root; ln -s spark-2.0.1-bin-hadoop2.7 spark
 
 
 COPY hdfs-site.xml /root/spark/conf
+COPY core-site.xml /root/spark/conf
