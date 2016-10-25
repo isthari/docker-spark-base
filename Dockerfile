@@ -10,3 +10,4 @@ RUN cd root; wget http://d3kbcqa49mib13.cloudfront.net/spark-2.0.1-bin-hadoop2.6
 RUN cd root; tar -xzf spark-2.0.1-bin-hadoop2.6.tgz
 RUN cd root; ln -s spark-2.0.1-bin-hadoop2.6 spark
 
+COPY hdfs-site.xml /root/spark/conf
