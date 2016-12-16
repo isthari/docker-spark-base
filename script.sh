@@ -4,6 +4,12 @@ docker build -t isthari/spark-base:1.6.2 .
 docker push isthari/spark-base:1.6.2
 cd ..
 
+echo "2.0.0"
+cd 2.0.0
+docker build -t isthari/spark-base:2.0.0 .
+docker push isthari/spark-base:2.0.0
+cd ..
+
 echo "2.0.1"
 cd 2.0.1
 docker build -t isthari/spark-base:2.0.1 .
